@@ -4,85 +4,100 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap"
       rel="stylesheet"
     />
-    <title>Profile Page</title>
+    <title>Profile</title>
   </head>
   <body>
-    <!--Header-->
+    <div class="header">
+      <span>
+        <h1>Gaurav Pal</h1>
+      </span>
+      <div class="container">
+        <div class="about">
+          <img src="images/Gaurav_palcopy.jpg" alt="" />
+          <div class="details">
+            <h2 class="heading">About Me</h2>
+            <p>
+              Hi, my name is Gaurav and I am 23 years old. I have recently
+              completed Bachelor's in Electrical Engineering from G.B. Pant
+              university. For the past few months I have been exploring the Web
+              development domain. Currently, I am a Full Stack Web Developer
+              Intern at Edureka.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    <header class="container">
-      <h1>Gaurav Pal</h1>
-      <div class="small-container">
-        <img
-          class="profilepic"
-          src="images/Gaurav.jpg"
-          alt="Gaurav Pal"
-          style="max-width: 300px"
-        />
+    <div class="main">
+      <div class="skills">
+        <!--no property div only for reading-->
         <div class="container">
-          <h2>About ME</h2>
-          <p class="small-container">
-            Hi, my name is Gaurav and I am 23 years old. I have recently
-            completed Bachelor's in Electrical Engineering from G.B. Pant
-            university. For the past few months I have been exploring the Web
-            development domain. Currently, I am a Full Stack Web Developer
-            Intern at Edureka.
-          </p>
+          <div class="small-container">
+            <h2 class="heading">Skills</h2>
+            <div class="photos">
+              <img
+                id="html"
+                src="images/2048px-HTML5_logo_and_wordmark.svg.png"
+                alt=""
+              />
+              <img id="css" src="images/html5-logo-opencode-css-8.png" alt="" />
+              <img
+                id="js"
+                src="images/transparent-logo-javascript-7.png"
+                alt=""
+              />
+              <img id="react" src="images/logo-react-icon.png" alt="" />
+              <img id="nodejs" src="images/node-js-2.png" alt="" />
+            </div>
+          </div>
         </div>
       </div>
-    </header>
 
-    <!--Main body-->
-
-    <main>
-      <div class="container">
-        <h2>Skill</h2>
-        <div class="small-container">
-          <img
-            src="images/html5-logo-opencode-css-8.png"
-            alt="css"
-            style="width: 100px"
-          />
-          <img
-            src="images/2048px-HTML5_logo_and_wordmark.svg.png"
-            alt="html"
-            style="width: 140px"
-          />
-          <img
-            src="images/transparent-logo-javascript-7.png"
-            alt="js"
-            style="width: 100px"
-          />
+      <div class="hobbies">
+        <!--no property div only for reading-->
+        <div class="container">
+          <div class="small-container">
+            <h2 class="heading">Hobbies</h2>
+            <div class="photos"></div>
+          </div>
         </div>
       </div>
-      <div class="container">
-        <h2>Hobies</h2>
-      </div>
-      <div class="container">
-        <h2>Location</h2>
-        <iframe
-          class="small-container"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5191094.091605689!2d74.97541175951191!3d30.8256966781872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a79cad49e7760f%3A0x9897a724d1bf7174!2sJoshimath%2C%20Uttarakhand%20246443!5e0!3m2!1sen!2sin!4v1659369507291!5m2!1sen!2sin"
-          width="100%"
-          height="450"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-      </div>
-    </main>
 
-    <!--Footer-->
-
-    <footer>
-      <div>
-        <h2>Contact ME</h2>
+      <div class="map">
+        <!--no property div only for reading-->
+        <div class="container">
+          <div class="map-container">
+            <h2 class="heading">Map</h2>
+            <div class="location">
+              <iframe
+                class="map-photo"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5191094.091605689!2d74.97541175951191!3d30.8256966781872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a79cad49e7760f%3A0x9897a724d1bf7174!2sJoshimath%2C%20Uttarakhand%20246443!5e0!3m2!1sen!2sin!4v1659369507291!5m2!1sen!2sin"
+                width="90%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
+
+      <div class="contact">
+        <!--no property div only for reading-->
+        <div class="container">
+          <div class="small-container">
+            <h2 class="heading">Contact</h2>
+            <div class=""></div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
