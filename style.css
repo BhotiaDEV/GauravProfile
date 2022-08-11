@@ -28,8 +28,9 @@ h1 {
 .nav {
   /* padding: 10px; */
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 20px;
+  justify-content: space-between;
+  padding-left: 50px;
+  margin: 10px 0;
 }
 
 .nav ul {
