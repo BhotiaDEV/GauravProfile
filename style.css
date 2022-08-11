@@ -12,7 +12,8 @@ body {
 
   background-color: #ddfff7;
 }
-p {
+p,
+span {
   font-size: 18px;
   line-height: 30px;
 }
@@ -24,22 +25,42 @@ h1 {
   letter-spacing: 2px;
 }
 
+.nav {
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul li {
+  list-style: none;
+}
+.nav ul li a {
+  padding: 10px;
+  display: block;
+}
+
 #header {
   text-align: center;
 }
 .name {
-  margin-top: 10px;
+  /* margin-top: 10px; */
   display: flex;
   justify-content: center;
 }
-#header h1 {
-  margin: 10px;
-  padding: 10px 35px;
-  /* width: 300px; */
-  border-radius: 15px;
-  background-color: #ee6352;
-  /* ffa69e */
-}
+/* #header h1 { */
+/* margin: 10px; */
+/* padding: 10px 35px; */
+/* width: 300px; */
+/* border-radius: 15px; */
+/* background-color: #ee6352; */
+/* ffa69e */
+/* } */
 .about {
   display: flex;
   background-color: #93e1d8;
@@ -118,6 +139,7 @@ h2::after {
 }
 .photos {
   display: flex;
+
   width: 100%;
   /* padding: 50px; */
   /* height: 100%; */
@@ -127,9 +149,9 @@ h2::after {
   /* background-color: #93e1d8; */
 }
 .photos img {
-  height: 70px;
-  width: 50px;
-  margin: 30px;
+  height: 105px;
+  width: 75px;
+  margin: 10px;
 }
 #hobby {
   height: 200px;
@@ -138,15 +160,15 @@ h2::after {
 
 /* Special cases */
 #js {
-  width: 55px;
+  width: 77px;
 }
 #html {
-  width: 70px;
+  width: 105px;
 }
 #react,
 #nodejs {
-  height: 75px;
-  width: 70px;
+  height: 107px;
+  width: 105px;
 }
 
 .location {
